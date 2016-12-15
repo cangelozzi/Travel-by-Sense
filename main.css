@@ -1,0 +1,628 @@
+* {
+  box-sizing: border-box;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.searchField {
+  text-align: center;
+  margin: 10px 100px 10px 100px;
+  float:  right;
+  border: 1px solid gray;
+  background: url("images/black bg.jpeg");
+  border-radius: 10px;
+  padding: 10px 80px 300px 80px;
+  color:  #E3E3E3;
+  opacity: 0.9;
+  filter: alpha(opacity=80);
+  box-shadow: 20px 20px 50px 20px black;  
+  font-family: 'Andika', sans-serif;
+}
+
+.senses {
+  border: 1px solid black;
+  border-radius: 10px;
+  background: url("images/senses.jpeg");
+  padding: 50px 50px 50px 100px;
+  background-size: 310px 150px;
+  background-repeat: no-repeat;
+  margin-left: 30px;
+}
+
+.searchField h1 {
+  font-size: 300%;
+  margin-bottom: 60px;
+}
+
+.searchField p {
+  text-align: left;
+}
+
+.searchButton {
+  background: url("images/magGlass.png") no-repeat;
+  background-size: 50px 50px;
+  padding: 25px;
+  border: none;
+  margin-left: 20px;
+}
+
+.taste {
+  background: url("images/taste.jpg") no-repeat;
+  background-size: 100px 100px;
+  padding: 50px;
+  border: none;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.vision {
+  background: url("images/vision.jpg") no-repeat;
+  background-size: 100px 100px;
+  padding: 50px;
+  border: none;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.touch {
+  background: url("images/touch.jpg") no-repeat;
+  background-size: 100px 100px;
+  padding: 50px;
+  border: none;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.audition {
+  background: url("images/hear.jpg") no-repeat;
+  background-size: 100px 100px;
+  padding: 50px;
+  border: none;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.choicePage {
+  border: 1px solid gray;
+  background: url("images/black bg.jpeg");
+  border-radius: 10px;
+  padding: 80px 80px 80px 80px;
+  color:  #E3E3E3;
+  opacity: 0.9;
+  filter: alpha(opacity=80);
+  box-shadow: 20px 20px 50px 20px black;  
+  font-family: 'Andika', sans-serif;
+  margin: 60px; 
+  max-height: 600px;
+  width: 1300px;
+  position: absolute;
+}
+
+.choicePage, .home {
+  display: none;
+  text-align: center;
+}
+
+.choicePage p {
+  margin-top: 80px;
+}
+
+.question {
+  text-align: center;
+  margin: 0px;
+  font-size: xx-large;
+}
+
+#taste, #vision, #touch, #audition {
+  padding: 40px;
+  display: inline-block;
+  margin: 10px;
+} 
+
+input {
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 4px;
+  border: 1px solid rgb(186, 178, 178);
+  box-shadow: 0px 0px 12px #EFEFEF;
+}
+
+/* hide pin in the Google Autocomplete City dropdown */
+/* https://developers.google.com/maps/documentation/javascript/places-autocomplete#style_autocomplete */
+.pac-icon {
+  width: 0;
+  background-image: none;
+}
+
+/* hide Region/Country in the Google Autocomplete City dropdown */
+/* https://developers.google.com/maps/documentation/javascript/places-autocomplete#style_autocomplete 
+.pac-item-query + span
+{
+    display: none
+} */
+
+/* hide "Powered by Google" in the Google Autocomplete City dropdown */
+.pac-container:after{display:none !important;}
+
+li {
+  list-style: none;
+}
+
+.etsy, .pics, .lastFm, .foursquare {
+  display: none;
+  text-align: center;
+}
+
+.home, .toTaste, .toVision, .toTouch, .toAudition {
+   float: left;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: orange;
+}
+
+body {
+  background: url("images/pariscaffe.jpeg") no-repeat fixed center; 
+ }
+
+ img {
+  border-radius: 80px;
+ }
+
+ img:hover {
+  box-shadow: 2px 2px 2px white;
+  transform: translateY(3px);
+ }
+
+button {
+  border: 0;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px 1px light gray;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 12px 20px;
+  transition: all .1s linear;
+}
+
+button:active {
+  box-shadow: 2px 2px 2px white;
+  transform: translateY(3px);
+}
+
+.foursquare {
+  margin: 0 auto;
+  text-align: center;
+ }
+
+.foursquare ul {
+  border: 1px solid light gray;
+  border-radius: 10px;
+  background: url("images/black bg.jpeg");
+  margin: 60px;
+  color:  #E3E3E3;
+  opacity: 0.9;
+  filter: alpha(opacity=9);
+  box-shadow: 10px 10px 30px 10px black;  
+  font-family: 'Andika', sans-serif;
+ }
+
+.foursquare ul li {
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+  display: inline-block;
+  }
+ 
+.foursquare p {
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Andika', sans-serif;
+  color: white;
+  border: 1px solid light gray;
+  border-radius: 10px;
+  background: url("images/black bg.jpeg");
+  margin: 60px;
+  color:  #E3E3E3;
+  opacity: 0.9;
+  filter: alpha(opacity=9);
+  box-shadow: 10px 10px 30px 10px black; 
+  padding: 5px;
+} 
+
+.foursquare p img {
+  max-width: 30px;
+  margin-left: 80px;
+}
+
+.pics ul {
+  border: 1px solid light gray;
+  border-radius: 10px;
+  background: url("images/black bg.jpeg");
+  margin: 60px;
+  color:  #E3E3E3;
+  opacity: 0.9;
+  filter: alpha(opacity=9);
+  box-shadow: 10px 10px 30px 10px black;  
+  font-family: 'Andika', sans-serif;
+}
+
+.pics ul li {
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.pics p {
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Andika', sans-serif;
+  color: white;
+  border: 1px solid light gray;
+  border-radius: 10px;
+  background: url("images/black bg.jpeg");
+  margin: 60px;
+  color:  #E3E3E3;
+  opacity: 0.9;
+  filter: alpha(opacity=9);
+  box-shadow: 10px 10px 30px 10px black; 
+}
+
+.pics p img {
+  max-width: 30px;
+  margin-left: 80px;
+}
+
+.etsy ul {
+  border: 1px solid light gray;
+  border-radius: 10px;
+  background: url("images/black bg.jpeg");
+  margin: 60px;
+  color:  #E3E3E3;
+  opacity: 0.9;
+  filter: alpha(opacity=9);
+  box-shadow: 10px 10px 30px 10px black;  
+  font-family: 'Andika', sans-serif;
+}
+
+.etsy ul li {
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.etsy p {
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Andika', sans-serif;
+  color: white;
+  border: 1px solid light gray;
+  border-radius: 10px;
+  background: url("images/black bg.jpeg");
+  margin: 60px;
+  color:  #E3E3E3;
+  opacity: 0.9;
+  filter: alpha(opacity=9);
+  box-shadow: 10px 10px 30px 10px black; 
+  padding: 5px;
+}
+
+.etsy img {
+  max-width: 400px;
+}
+
+.etsy p img {
+  max-width: 50px; 
+  margin-left: 80px; 
+}
+
+.lastFm ul {
+  border: 1px solid light gray;
+  border-radius: 10px;
+  background: url("images/black bg.jpeg");
+  margin: 60px;
+  color:  #E3E3E3;
+  opacity: 0.9;
+  filter: alpha(opacity=9);
+  box-shadow: 10px 10px 30px 10px black;  
+  font-family: 'Andika', sans-serif;
+}
+
+.lastFm ul li {
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.lastFm p {
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Andika', sans-serif;
+  color: white;
+  border: 1px solid light gray;
+  border-radius: 10px;
+  background: url("images/black bg.jpeg");
+  margin: 60px;
+  color:  #E3E3E3;
+  opacity: 0.9;
+  filter: alpha(opacity=9);
+  box-shadow: 10px 10px 30px 10px black;
+  padding: 5px;
+}
+
+.lastFm p img {
+  max-width: 30px;
+  margin-left: 80px;
+}
+
+.etsy button {
+  background-color: #F5F5F5;
+  border: 1px solid light gray;
+  border-radius: 10px;
+  color:  black;
+  opacity: 0.8;
+  filter: alpha(opacity=8);
+  box-shadow: 10px 10px 30px 10px black;
+  text-align: center;
+  font-family: 'Andika', sans-serif;
+  max-width: 100px;
+  display: inline;
+  padding: 0px;
+  font-size: smaller;
+  margin-right: 100px;
+}
+
+.lastFm button {
+  background-color: #F5F5F5;
+  border: 1px solid light gray;
+  border-radius: 10px;
+  color:  black;
+  opacity: 0.8;
+  filter: alpha(opacity=8);
+  box-shadow: 10px 10px 30px 10px black;
+  text-align: center;
+  font-family: 'Andika', sans-serif;
+  max-width: 100px;
+  display: inline;
+  padding: 0px;
+  font-size: smaller;
+  margin-right: 100px;
+}
+
+.pics button {
+  background-color: #F5F5F5;
+  border: 1px solid light gray;
+  border-radius: 10px;
+  color:  black;
+  opacity: 0.8;
+  filter: alpha(opacity=8);
+  box-shadow: 10px 10px 30px 10px black;
+  text-align: center;
+  font-family: 'Andika', sans-serif;
+  max-width: 100px;
+  display: inline;
+  padding: 0px;
+  font-size: smaller;
+  margin-right: 100px;
+}
+
+.foursquare button {
+  background-color: #F5F5F5;
+  border: 1px solid light gray;
+  border-radius: 10px;
+  color:  black;
+  opacity: 0.8;
+  filter: alpha(opacity=8);
+  box-shadow: 10px 10px 30px 10px black;
+  text-align: center;
+  font-family: 'Andika', sans-serif;
+  max-width: 100px;
+  display: inline;
+  padding: 0px;
+  font-size: smaller;
+  margin-right: 100px;
+}
+
+.home {
+  background: url("images/home2.png") no-repeat center;
+  margin-top: 0;
+  background-size: 60%;
+  border: 1px solid black;
+  border-radius: 130px;
+  color:  #E3E3E3;
+  opacity: 0.8;
+  filter: alpha(opacity=9);
+  box-shadow: 10px 10px 30px 10px black;
+  padding: 25px 25px;
+  margin-top: 20px;
+  position: fixed;
+  background-color: white;
+}
+
+.text {
+  text-align: center;
+}
+
+.up {
+  background: url('images/up.png') no-repeat center;
+  margin-top: 0;
+  background-size: 91%;
+  border: 1px solid black;
+  border-radius: 130px;
+  color:  #E3E3E3;
+  opacity: 1.0;
+  filter: alpha(opacity=8);
+  box-shadow: 10px 10px 30px 10px black;
+  padding: 25px;
+  float: left;
+  background-color: white;
+  display: none;
+}
+
+.myLinks img {
+  width: 20px;
+  padding: 0;
+}
+
+.myLinks p {
+  display: inline;
+  font-size: small;
+}
+
+.myLinks {
+  background-color: black;
+  border: 1px solid light gray;
+  border-radius: 30px;
+  color:  white;
+  opacity: 0.8;
+  filter: alpha(opacity=8);
+  box-shadow: 10px 10px 30px 10px black;
+  text-align: center;
+  font-family: 'Andika', sans-serif;
+  max-width: 100px;
+  display: inline;
+  padding: 5px 5px 2px 5px;
+}
+
+footer {
+  display: inline-block;
+  margin-top: 660px;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+     background-size: 350%;
+     background-position-x: -600px; 
+     width: 100%
+    }
+
+    .searchField {
+      margin: 0 auto;
+      height: 400px;
+      padding: 10px;
+      margin-right: 50px;
+    }
+
+    .senses {
+      background-size: 150px 100px;
+      margin-left: 70px;
+    }
+
+   .searchField h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+   .searchField p {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+
+  form {
+    size: 30%;
+  }
+
+  footer {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  .myLinks {
+    display: inline;
+    width: 250px;
+    max-width: 1000px;
+    margin-top: 400px;
+    position: relative;
+    margin-left: 100px;
+  }
+
+  .myLinks p {
+    display: inline;
+    font-size: 50%;
+  }
+
+  .home {
+    background-size: 50%;
+    padding: 10px 20px;
+    background-position: center;
+  }
+
+  .choicePage {
+    margin-top: 60px;
+    width: 300px;
+    padding: 10px;
+  }
+
+  .choicePage p {
+    font-size: 50%;
+  }
+
+  #touch, #vision, #taste, #audtion {
+    padding: 0px;
+    background-size: 50%;
+  }
+
+  .question {
+    font-size: 60%;
+  }
+
+  .touch, .vision, .taste, .audition {
+    background-position: center;
+    padding: 20px;
+    background-size: 40px 40px;
+  }
+
+  .pics, .foursquare, .lastFm, .etsy p {
+    font-size: 50%;
+  }
+
+  li img {
+    width: 25%;
+    margin-right: 190px;
+  }
+
+  ul {
+    padding: 0;
+  }
+ 
+  li {
+    padding: 0;
+  }
+
+  .up {
+    background-size: 50%;
+    padding: 10px 20px;
+    background-position: center;
+  }
+}
+
+
+
+
+

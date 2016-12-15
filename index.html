@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Travel by Sense</title>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false&libraries=places&language=en"></script>
+    <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Andika" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet"> 
+  </head>
+  <body>  
+
+      <button class="home" type="button"></button>
+      <div class="searchField">
+        <div class="senses"></div>
+        <h1>Travel by Sense</h1>
+        <p>Search a Location to discover:</p>  
+
+        <form class="form">
+        <input class="query" id="autocomplete" type="text" placeholder="Type in a location" size="40" required="Don't you want to discover any place?"/>
+        <button type="submit" class="searchButton"></button>
+        </form>
+        </div>
+      </div>
+     
+      <div class="choicePage">
+        <div class="question"></div>
+        <div id="taste"><button class="taste" type="button"></button></div>
+        <div id="vision"><button class="vision" type="button"></button></div>
+        <div id="touch"><button class="touch" type="button"></button></div>
+        <div id="audition"><button class="audition" type="button"></button></div>
+      
+          <div class="text">
+            <p>Discover Foods, Arts, Venues, Outdoors, Handcrafts and Sounds to please your senses.</p>
+          </div>
+      </div>
+
+      <div class="etsy">
+        <p><button class="back" type="button">Back</button>Look at beautiful handcrafts and handmade items...<img src="images/etsy.png" alt="etsy"></p>  
+        <ul></ul>
+      </div>
+    
+      <div class="pics">
+        <p><button class="back" type="button">Back</button>Have a look at pictures, venues and outdoors...<img src="images/foursquarelogo.png" alt="foursquare"></p>  
+        <ul></ul>
+      </div>
+    
+      <div class="lastFm">
+        <p><button class="back" type="button">Back</button>Discover the sounds of your location...<img src="images/lastfm.jpeg" alt="lastFm"></p>  
+        <ul></ul>
+      </div>
+      
+      <div class="foursquare">
+        <p><button class="back" type="button">Back</button>Discover Food, Drinks and Cafés...<img src="images/foursquarelogo.png" alt="foursquare"></p>  
+        <ul></ul>
+      </div>
+
+      <button class="up" type="button"></button>
+
+      <footer>
+        <div class="myLinks">
+          <p>Created with love by Camillo</p>
+          <a href="https://github.com/cangelozzi" target="_blank"><img src="images/GitHub.png" alt="Camillo @ GitHub"></a>
+          <a href="https://www.linkedin.com/in/camillo-angelozzi-a0b5a229" target="_blank"><img src="images/linkedin.png" alt="Camillo @ Linkedin"></a>
+        </div>
+      </footer>
+
+      <script src="https://code.jquery.com/jquery-3.1.1.js"> </script> 
+      <script src="app.js"> </script>
+  </body>
+</html>
