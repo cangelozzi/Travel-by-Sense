@@ -1,6 +1,6 @@
 var $ = jQuery
 var input = document.getElementById('autocomplete')
-var options = { types: ['(cities)'], key: 'AIzaSyAlenSrdANoBKkMogdDSfCikfChML2_zYk' }
+var options = { types: ['(cities)'] }
 var autocomplete = new google.maps.places.Autocomplete(input, options)
 var locSubmitted, locArray, locCity, locCountry, loc
 
