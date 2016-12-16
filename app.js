@@ -134,7 +134,7 @@ function showlastFm () {
   })
 
   function audioLastFm () {
-    var url = 'http://ws.audioscrobbler.com/2.0/?method=album.search&album=' + loc + '&api_key=19b8a524d7b3e2f4e8a48a323aaa7938&format=json&callback=?'
+    var url = 'https://ws.audioscrobbler.com/2.0/?method=album.search&album=' + loc + '&api_key=19b8a524d7b3e2f4e8a48a323aaa7938&format=json&callback=?'
     $.getJSON(url).done(function (res) {
       $('.lastFm ul').empty()
       $.each(res.results.albummatches.album, function (i, item) {
