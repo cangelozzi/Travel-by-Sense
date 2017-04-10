@@ -171,8 +171,8 @@ function showFoursquare () {
         var name = base[index].venue.name
         var address = base[index].venue.location.address
         var city = base[index].venue.location.city
-        var content = '<li><a href="' + url + '" target="_blank">' + '<img src="' + photo.prefix + 'cap300' + photo.suffix + '"/></br>' + name + '</br>' +
-          address + ' - ' + city + '</br>' + text + '</br></a></li>'
+        var content = '<li><a href="' + url + '" target="_blank">' + '<img src="' + photo.prefix + 'cap300' + photo.suffix + '"/></br><h3>' + name + '</h3>' +
+          address + ' - ' + city + '<br><em>' + text + '</em></br></a></li>'
         $(content).appendTo('.foursquare ul')
       })
     })

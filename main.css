@@ -17,7 +17,7 @@ button:hover {
   color:  #E3E3E3;
   opacity: 0.9;
   filter: alpha(opacity=80);
-  box-shadow: 20px 20px 50px 20px black;  
+  box-shadow: 20px 20px 50px 20px black;
   font-family: 'Andika', sans-serif;
 }
 
@@ -92,9 +92,8 @@ button:hover {
   color:  #E3E3E3;
   opacity: 0.9;
   filter: alpha(opacity=80);
-  box-shadow: 20px 20px 50px 20px black;  
   font-family: 'Andika', sans-serif;
-  margin: 60px; 
+  margin: 60px;
   max-height: 600px;
   width: 1300px;
   position: absolute;
@@ -119,7 +118,7 @@ button:hover {
   padding: 40px;
   display: inline-block;
   margin: 10px;
-} 
+}
 
 input {
   height: 30px;
@@ -137,7 +136,7 @@ input {
 }
 
 /* hide Region/Country in the Google Autocomplete City dropdown */
-/* https://developers.google.com/maps/documentation/javascript/places-autocomplete#style_autocomplete 
+/* https://developers.google.com/maps/documentation/javascript/places-autocomplete#style_autocomplete
 .pac-item-query + span
 {
     display: none
@@ -169,7 +168,7 @@ a:hover {
 }
 
 body {
-  background: url("images/pariscaffe.jpeg") no-repeat fixed center; 
+  background: url("images/pariscaffe.jpeg") no-repeat fixed center;
  }
 
  img {
@@ -213,7 +212,6 @@ button:active {
   color:  #E3E3E3;
   opacity: 0.9;
   filter: alpha(opacity=9);
-  box-shadow: 10px 10px 30px 10px black;  
   font-family: 'Andika', sans-serif;
  }
 
@@ -225,7 +223,7 @@ button:active {
   margin: 0 auto;
   display: inline-block;
   }
- 
+
 .foursquare p {
   font-size: 200%;
   font-weight: bold;
@@ -239,9 +237,8 @@ button:active {
   color:  #E3E3E3;
   opacity: 0.9;
   filter: alpha(opacity=9);
-  box-shadow: 10px 10px 30px 10px black; 
   padding: 5px;
-} 
+}
 
 .foursquare p img {
   max-width: 30px;
@@ -256,7 +253,6 @@ button:active {
   color:  #E3E3E3;
   opacity: 0.9;
   filter: alpha(opacity=9);
-  box-shadow: 10px 10px 30px 10px black;  
   font-family: 'Andika', sans-serif;
 }
 
@@ -282,7 +278,6 @@ button:active {
   color:  #E3E3E3;
   opacity: 0.9;
   filter: alpha(opacity=9);
-  box-shadow: 10px 10px 30px 10px black; 
 }
 
 .pics p img {
@@ -298,7 +293,6 @@ button:active {
   color:  #E3E3E3;
   opacity: 0.9;
   filter: alpha(opacity=9);
-  box-shadow: 10px 10px 30px 10px black;  
   font-family: 'Andika', sans-serif;
 }
 
@@ -324,7 +318,6 @@ button:active {
   color:  #E3E3E3;
   opacity: 0.9;
   filter: alpha(opacity=9);
-  box-shadow: 10px 10px 30px 10px black; 
   padding: 5px;
 }
 
@@ -333,8 +326,8 @@ button:active {
 }
 
 .etsy p img {
-  max-width: 50px; 
-  margin-left: 80px; 
+  max-width: 50px;
+  margin-left: 80px;
 }
 
 .lastFm ul {
@@ -345,7 +338,6 @@ button:active {
   color:  #E3E3E3;
   opacity: 0.9;
   filter: alpha(opacity=9);
-  box-shadow: 10px 10px 30px 10px black;  
   font-family: 'Andika', sans-serif;
 }
 
@@ -371,7 +363,6 @@ button:active {
   color:  #E3E3E3;
   opacity: 0.9;
   filter: alpha(opacity=9);
-  box-shadow: 10px 10px 30px 10px black;
   padding: 5px;
 }
 
@@ -457,7 +448,6 @@ button:active {
   color:  #E3E3E3;
   opacity: 0.8;
   filter: alpha(opacity=9);
-  box-shadow: 10px 10px 30px 10px black;
   padding: 25px 25px;
   margin-top: 20px;
   position: fixed;
@@ -517,7 +507,7 @@ footer {
 @media screen and (max-width: 800px) {
     body {
      background-size: 350%;
-     background-position-x: -600px; 
+     background-position-x: -600px;
      width: 100%
     }
 
@@ -610,7 +600,7 @@ footer {
   ul {
     padding: 0;
   }
- 
+
   li {
     padding: 0;
   }
@@ -621,8 +611,3 @@ footer {
     background-position: center;
   }
 }
-
-
-
-
-
